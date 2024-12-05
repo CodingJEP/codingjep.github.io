@@ -1,4 +1,4 @@
-[submodule "submodule"]
-	path = submodule
-	url = https://github.com/CodingJEP/webtest.git
+[new-year-countdown "new-year-countdown"]
+	path = new-year-countdown
+	url = https://github.com/CodingJEP/new-year-countdown.git
 	branch = main
