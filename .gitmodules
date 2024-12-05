@@ -1,1 +1,5 @@
 
+[submodule "new-year-countdown"]
+	path = new-year-countdown
+	url = https://github.com/CodingJEP/new-year-countdown.git
+	branch = main
