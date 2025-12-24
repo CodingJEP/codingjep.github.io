@@ -1,106 +1,12 @@
 <!DOCTYPE html>
-<!--
-MIT License
-
-Copyright (c) 2024 CodingJEP
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
--->
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>codingjep.github.io</title>
-  <style>
-    :root {
-      --color-title: #00ffdd;
-      --color-accent: #ff007f;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #000;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      overflow: hidden;
-    }
-
-    h1 {
-      font-size: min(9vw, 16vh);
-      text-align: center;
-      color: var(--color-title);
-      text-shadow:0 0 0.3em var(--color-title);
-      margin: 0;
-      margin-bottom: min(5vw, 5vh);
-    }
-
-    @keyframes content-fadein {
-      from {
-        transform: rotateX(90deg) scale(0.5);
-      }
-      
-    }
-
-    .content-box {
-      background-color: #1c1c1c;
-      padding: min(5vw, 5vh);
-      border-radius: min(5vw, 5vh);
-      box-shadow: 0 0 min(4vw, 4vh) var(--color-title);
-      text-align: center;
-      max-width: 90%;
-
-      transform-origin: center;
-      perspective: max(100vw, 100vh);
-      transform-style: preserve-3d;
-      transform: rotateX(0deg);
-      animation: content-fadein 500ms ease-out;
-    }
-
-    .content-box p {
-      font-size: min(4vw, 6vh);
-      line-height: 1.5;
-      color: #fff;
-    }
-
-    .content-box a {
-      color: var(--color-accent);
-      text-decoration: none;
-      font-weight: bold;
-      text-shadow: 0 0 0.1em #fff, 0 0 0.2em var(--color-accent);
-      transition-duration: 200ms;
-      transition-property: color;
-    }
-    .content-box a:hover {
-      color: #fff;
-    }
-
-  </style>
 </head>
 <body>
   <h1>codingjep.github.io</h1>
-  <div class="content-box">
-    <p>Check this <a href="new-year-countdown">New Year Countdown</a>!<br>It also includes some fancy fireworks!</p>
-  </div>
+  <p>Go to <a href="/new-year-countdown">New-Year-Countdown + Firework</a></p>
 </body>
 </html>
