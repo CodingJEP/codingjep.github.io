@@ -4,9 +4,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>codingjep.github.io</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: black;
+      color: white;
+      font-family: Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 50px 10px 50px 10px;
+    }
+    a, a:visited {
+      color: aqua;
+    }
+    h1 {
+      margin: 0 0 21px 0;
+      font-size: xx-large;
+    }
+    p {
+      margin: 0 0 21px 0;
+      font-size: large;
+    }
+    #favicon {
+      margin: 0 0 32px 0;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #fff;
+      border-radius: 50%;
+    }
+    @media (any-pointer: fine) {
+      #favicon {
+        transition-property: transform;
+        transition-duration: 400ms;
+        transition-timing-function: ease;
+        transform-origin: center;
+        transform: rotate(0deg);
+      }
+      #favicon:hover {
+        transform: rotate(-360deg);
+      }
+    }
+    .pictolink {
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 4px 0 4px 0;
+    }
+    .pictolink>img {
+      width: 2em;
+      height: 2em;
+      display: block;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #fff;
+      margin: 0 8px 0 0;
+      background-color: black;
+    }
+  </style>
 </head>
 <body>
+  <img id="favicon" alt="favicon" src="favicon.ico" width="128" height="128" />
   <h1>codingjep.github.io</h1>
-  <p>Go to <a href="/new-year-countdown">New-Year-Countdown + Firework</a></p>
+  <p>
+    Welcome.
+  </p>
+  <p>
+    You can go to:
+    <br>
+    <span class="pictolink">
+      <img src="new-year-countdown/favicon.png" />
+      <a href="new-year-countdown/">New-Year-Countdown + Firework</a>
+    </span>
+    <br>
+    <span class="pictolink">
+      <img src="github-mark-white.png" />
+      <a href="https://github.com/CodingJEP/">My GitHub user</a>
+    </span>
+  </p>
 </body>
 </html>
